@@ -1,83 +1,82 @@
 *{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-  }
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
 
-  body{
-    background-color: #F7D5D4;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
-  }
-  
-  .title, #comment{
-    text-align: center;
-    margin-bottom: 30px;
-  }
+body{
+  background-color: #F7D5D4;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
+}
 
-  .row{
-    width: 100%;
-  }  
+.title, #comment{
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-  .container{
-  margin: 20px;
+.row{
+  width: 100%;
+}  
+
+.container{
+margin: 20px;
+position: relative;
+top:40px;
+}
+
+.box {
+  border: 1px solid #000;
+  background-color:#E8B3B9;
   position: relative;
-  top:40px;
-  }
-  
-  .box {
-    border: 1px solid #000;
-    background-color:#E8B3B9;
-    position: relative;
-    margin: 25px;
-    padding: 25px;
-  }
-  
-  .box section {
-    font-size:120%;
-    margin-top: 30px;
-    text-align: justify;
-  }
-  
-  .box-title {
-    border: 1px solid black;
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width:150px;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  #title1 {
-    background-color: #CB6862;
-  } 
-  
-  #title2 {
-    background-color:#AA3C3B;
-  }
-  
-  #title3 {
-    background-color: #E97856; 
-  }
-  
-  /* -- Desktop view -- */
-  @media (min-width: 992px){
-      .col-lg-4 {
-      width: 33.33%;
-      float: left;
-    }
-  }
-  
-  
-  /* -- Tablet view -- */
-  @media (min-width: 768px) and (max-width: 991px){
+  margin: 25px;
+  padding: 25px;
+}
+
+.box section {
+  font-size:120%;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.box-title {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width:150px;
+  padding: 5px;
+  text-align: center;
+}
+
+#title1 {
+  background-color: #CB6862;
+} 
+
+#title2 {
+  background-color:#AA3C3B;
+}
+
+#title3 {
+  background-color: #E97856; 
+}
+
+/* -- Desktop view -- */
+@media (min-width: 992px){
     .col-lg-4 {
-      width: 50%;
-      float: left;
-    }
-    .col-lg-12{
-     width: 100%;
-     float: left;
-   }
+    width: 33.33%;
+    float: left;
   }
-  
+}
+
+
+/* -- Tablet view -- */
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-12{
+   width: 100%;
+   float: left;
+ }
+}
