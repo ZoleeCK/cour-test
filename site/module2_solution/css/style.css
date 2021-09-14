@@ -19,13 +19,11 @@ body{
 }  
 
 .container{
-margin: 20px;
-position: relative;
-top:40px;
+margin: 50px 25px 25px 25px;
 }
 
 .box {
-  border: 1px solid #000;
+  border: 1px solid #000000;
   background-color:#E8B3B9;
   position: relative;
   margin: 25px;
@@ -39,7 +37,7 @@ top:40px;
 }
 
 .box-title {
-  border: 1px solid black;
+  border: 1px solid #000000;
   position: absolute;
   top: 0;
   right: 0px;
