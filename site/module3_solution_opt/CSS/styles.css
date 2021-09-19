@@ -1,81 +1,82 @@
 body {
-    background-color: #F7D5D4;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
+  background-color: #F7D5D4;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
 }
 
 /* Header settings START */
 .navbar-dark {
-    background-color: #542D2D;
+  background-color: #542D2D;
 }
 .display-3 { /* Food LLC */
-    color: #ffffff;
-    font-weight: bold;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 27px;
 }
-nav div.container-fluid {
-    margin: 15px
+button {
+  margin-right: 27px;
 }
+
 li.nav-item {
-    font-size: 1.8em;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 2px;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2px -15px 0px -15px;
 }
 .nav-link {
-    padding: 10px;
-  }
+  padding: 10px;
+}
   /* Header settings END */
 
 .display-5 { /* Our Menu H1 */
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .box { /* bordered meat text boxes */
-    border: 1px solid #000000;
-    background-color: #E8B3B9;
-    position: relative;
-    margin: 15px 15px 15px 15px;
-    padding: 12px;
+  border: 1px solid #000000;
+  background-color: #E8B3B9;
+  position: relative;
+  margin: 15px 15px 15px 15px;
+  padding: 12px;
 }
 .box-title {
-    border: 1px solid #000000;
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width: 150px;
-    padding: 5px;
-    text-align: center;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
 }
 .box section { /* texts */
-    font-size: 120%;
-    margin-top: 50px;
-    text-align: justify;
+  font-size: 120%;
+  margin-top: 50px;
+  text-align: justify;
 }
 .chicken {
-    background-color: #CB6862;
+  background-color: #CB6862;
 } 
 .beef {
-    background-color: #AA3C3B;
+  background-color: #AA3C3B;
 }
 .sushi {
-    background-color: #E97856; 
+  background-color: #E97856; 
 }
 /* -- Desktop view -- */
   @media (min-width: 992px) {
     .col-lg-4 {
-      width: 33.33%;
-      float: left;
+    width: 33.33%;
+    float: left;
     }
   }
 /* -- Tablet view -- */
   @media (min-width: 768px) and (max-width: 991px) {
     .col-lg-4 {
-      width: 50%;
-      float: left;
+    width: 50%;
+    float: left;
     }
     .col-lg-12{
-      width: 100%;
-      float: left;
+    width: 100%;
+    float: left;
     }
   }
