@@ -1,0 +1,121 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #F7D5D4;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
+}
+
+.row {
+    width: 100%;
+}  
+
+.navbar-dark {
+    background-color: #542D2D;
+}
+
+ul.navbar-nav {
+    margin-right: 40px;
+    margin-left: 15px;
+}
+
+.display-3 {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.display-5 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+button.navbar-toggler {
+;
+}
+
+li.nav-item {
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.nav-link {
+    padding: 10px;
+
+}
+
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 15px
+}
+
+button.navbar-toggler {
+    margin-right: 40px;
+}
+
+
+.box {
+    border: 1px solid #000000;
+    background-color:#E8B3B9;
+    position: relative;
+    margin: 40px 15px 15px 15px;
+    padding: 15px;
+}
+
+.box section {
+    font-size:120%;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.box-title {
+    border: 1px solid #000000;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width:150px;
+    padding: 5px;
+    text-align: center;
+}
+
+#title1, a#refchicken {
+    background-color: #CB6862;
+} 
+
+#title2, a#refbeef {
+    background-color:#AA3C3B;
+}
+
+#title3, a#refsushi {
+    background-color: #E97856; 
+}
+/* 
+
+  /* -- Desktop view -- */
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+    }
+  }
+  
+  /* -- Tablet view -- */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-12{
+      width: 100%;
+      float: left;
+    }
+  }
+   */
