@@ -1,10 +1,12 @@
 (function (window) {
+
   var helloSpeaker = {};
   var speakWord = "Hello";
-  helloSpeaker.speak = function (name) {
-    console.log(speakWord + " " + name);
+  helloSpeaker.speak = function (firstName) {
+    console.log (speakWord + " " + firstName);
   }
   window.helloSpeaker = helloSpeaker;
+
 })(window);
 
   // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
